@@ -15,7 +15,8 @@ public class WelcomeActivity extends AppCompatActivity {
 	}
 
 	public void clickLogin(View view) {
-		Intent intent = new Intent(this, LoginActivity.class);
+		//Intent intent = new Intent(this, LoginActivity.class);
+		Intent intent = new Intent(WelcomeActivity.this, LoginActivity.class);
 		startActivity(intent);
 		finish();
 	}
