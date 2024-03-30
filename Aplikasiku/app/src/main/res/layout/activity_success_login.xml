@@ -7,7 +7,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:background="#FFFFFF"
-	tools:context=".SuccessResetPasswordActivity">
+	tools:context=".SuccessLoginActivity">
 
 	<androidx.constraintlayout.widget.Guideline
 		android:id="@+id/guideline"
@@ -50,8 +50,6 @@
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toBottomOf="@id/txt_success" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
